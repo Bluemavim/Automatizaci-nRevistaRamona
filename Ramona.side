@@ -1,0 +1,92 @@
+{
+  "id": "7e43ef60-00a7-496c-869a-4a9a5a735772",
+  "version": "2.0",
+  "name": "Ramona",
+  "url": "http://ramona.org.ar",
+  "tests": [{
+    "id": "9153b9fd-6e09-4af3-8863-97c5cb10ce95",
+    "name": "RamonaTest1",
+    "commands": [{
+      "id": "2fad2e6a-f8f1-48f1-b90d-d8e4f09d29c6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6b02aee-8963-4a6b-95e5-7f5630b39cd2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32fd6493-6396-4f03-8a32-47769dc0fbc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-search-theme-form-keys",
+      "targets": [
+        ["id=edit-search-theme-form-keys", "id"],
+        ["name=search_theme_form_keys", "name"],
+        ["css=#edit-search-theme-form-keys", "css:finder"],
+        ["xpath=//input[@id='edit-search-theme-form-keys']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-search-theme-form-keys-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3fb130e-a9cf-4b07-9ab1-be05a80a9640",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-search-theme-form-keys",
+      "targets": [
+        ["id=edit-search-theme-form-keys", "id"],
+        ["name=search_theme_form_keys", "name"],
+        ["css=#edit-search-theme-form-keys", "css:finder"],
+        ["xpath=//input[@id='edit-search-theme-form-keys']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-search-theme-form-keys-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "happening"
+    }, {
+      "id": "455ac30d-2fd0-4497-8cca-fa57397e8887",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-search-theme-form-keys",
+      "targets": [
+        ["id=edit-search-theme-form-keys", "id"],
+        ["name=search_theme_form_keys", "name"],
+        ["css=#edit-search-theme-form-keys", "css:finder"],
+        ["xpath=//input[@id='edit-search-theme-form-keys']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-search-theme-form-keys-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f69e8728-40e7-4dfb-a787-5b8604faee57",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='main']/div/div/div/div[2]/div/dl/dt/a",
+      "targets": [
+        ["linkText=Humor gaseoso - organizada por El Museo Argentino de la Gaseosa (MAG)", "linkText"],
+        ["css=.title:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Humor gaseoso - organizada por El Museo Argentino de la Gaseosa (MAG)')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div/div[2]/div/dl/dt/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://ramona.org.ar/node/28678']", "xpath:href"],
+        ["xpath=//dt/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Humor gaseoso - organizada por El Museo Argentino de la Gaseosa (MAG)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "305c3781-ae30-4065-8b9a-6313a612aeb0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9153b9fd-6e09-4af3-8863-97c5cb10ce95"]
+  }],
+  "urls": ["http://ramona.org.ar/"],
+  "plugins": []
+}
